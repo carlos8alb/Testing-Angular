@@ -9,7 +9,6 @@ describe('Counte component Unit Test', () => {
   it('should not be greater than 100 progress var', () => {
     component.progress = 50;
     component.onChangeValue(400)
-    console.log(component.progress);
     expect(component.progress).toBe(100)
   })
 });
